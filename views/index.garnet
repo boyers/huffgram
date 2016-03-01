@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A total injective function from bit strings to natural language phrases." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Huffgram</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css' />
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/oocalimimngaihdkbihfgmpkcpnmlaoa" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <img class="spinner" src="ring.svg" alt="Loading...">
+    </div>
+    <div class="container">
+      <h1>Huffgram</h1>
+      <p class="subheading">Made with <span class="heart">♡</span> by <a href="https://www.stephanboyer.com">Stephan</a></p>
+      <label for="original">Original data</label>
+      <input id="original" type="text" placeholder="Enter a phone number, IP address, password, etc." autofocus value="3.14159265358979323" />
+      <label for="natural">Huffgram</label>
+      <textarea id="natural" placeholder="Enter a Huffgram"></textarea>
+      <p id="error"></p>
+      <h2>What is this?</h2>
+      <p>Huffgram will convert any piece of text into a word phrase that is easier to memorize. You might use it to memorize a phone number, a password, or even some digits of π. When you need the original text back, Huffgram can recover it from the word phrase.</p>
+      <p>Huffgram will never log or store any data from you. The computation is done entirely in your browser. In mathematical terms, it’s a total injective function from bit strings to natural language phrases. Huffgram is deterministic, so there is nothing to store.</p>
+      <p><strong>Note:</strong> Huffgram is not encryption. If you use Huffgram for sensitive data, you must be sure to keep your phrases secret.</p>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="utf8.js"></script>
+    <script src="tree.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

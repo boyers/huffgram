@@ -1,0 +1,135 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #222;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.spinner {
+  width: 198px;
+  height: 198px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -99px;
+  margin-top: -99px;
+  z-index: 200;
+}
+
+.container {
+  margin: 32px auto;
+  max-width: 512px;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+}
+
+.subheading {
+  margin-top: 0;
+  margin-bottom: 48px;
+  text-align: center;
+  color: #999;
+}
+
+h2 {
+  margin: 48px 0 -16px 0;
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+a {
+  color: #158cba;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #29b4e9;
+}
+
+.heart {
+  color: #ff527f;
+}
+
+p {
+  margin: 24px 0;
+}
+
+label {
+  display: block;
+  margin: 24px 0 4px 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 2px;
+  margin: 4px 0 24px 0;
+  padding: 8px 12px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  outline-style: none;
+  resize: none;
+  -webkit-transition: border-color 0.2s;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}
+
+input {
+  height: 44px;
+  line-height: 24px;
+}
+
+textarea {
+  height: 116px;
+  line-height: inherit;
+}
+
+input[type="text"]:focus, textarea:focus {
+  border-color: #158cba;
+}
+
+#error {
+  margin: -20px 0 24px 0;
+  color: #d0021b;
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+strong {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "huffgram",
+  "version": "1.0.0",
+  "description": "A total injective function from bit strings to natural language phrases.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "huffgram",
+    "entropy",
+    "huffman"
+  ],
+  "author": "Stephan Boyer",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.6.1",
+    "express": "^4.13.4",
+    "garnet": "^0.1.9",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boyers/huffgram.git"
+  }
+}
